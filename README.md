@@ -1,11 +1,9 @@
-# IRCamera_OpenCV__QtWidget
-OpenCV IRImager C++ | IR Imager Direct-SDK | QT
+# OpenCV IRImager C++ | IR Imager Direct-SDK | QT
+# Linux installation | IR Imager Direct-SDK |
+#Download the latest version of the libirimager: (https://evocortex.org/downloads)
 
 ## Image IRCamera Photo
 ![gjkabc](http://documentation.evocortex.com/libirimager2/html/household.png)
-
-## Linux installation | IR Imager Direct-SDK |
-#Download the latest version of the libirimager: (https://evocortex.org/downloads)
 
 
 ## Linux installation
