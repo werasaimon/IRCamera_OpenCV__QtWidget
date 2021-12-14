@@ -2,22 +2,14 @@
 OpenCV IRImager C++
 
 ```bash
+```bash
 # clone imath from GitHub
-git clone https://github.com/werasaimon/IMath ./imath
-
-# make a build directory
-cd ./imath/src
-mkdir build
-cd build
-
-# generate Makefiles and install
-cmake .. -DCMAKE_INSTALL_PREFIX=/imath/install/location
-
-make
-./IMath
-
-MSVS_2010-2017 Open-File ( IMath.sln )
-./IMath.exe
+$ sudo bash -c 'echo "options uvcvideo nodrop=1" > /etc/modprobe.d/uvcvideo.conf'
+$ sudo rmmod uvcvideo; sudo modprobe uvcvideo nodrop=1
+$ sudo bash -c 'echo -n 1 > /sys/module/uvcvideo/parameters/nodrop'
+$ groups
+$ sudo usermod -a -G video <username>
+```
 ```
 
 
