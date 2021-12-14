@@ -1,6 +1,8 @@
 # IRCamera_OpenCV__QtWidget
 OpenCV IRImager C++
 
+##Linux installation | IR Imager Direct-SDK |
+
 ```bash
 # clone imath from GitHub
 $ sudo bash -c 'echo "options uvcvideo nodrop=1" > /etc/modprobe.d/uvcvideo.conf'
