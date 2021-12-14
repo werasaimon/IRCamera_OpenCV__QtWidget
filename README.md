@@ -2,8 +2,7 @@
 OpenCV IRImager C++
 
 ## Linux installation | IR Imager Direct-SDK |
-#Download the latest version of the libirimager: 
-![url](https://evocortex.org/downloads/)[url]
+#Download the latest version of the libirimager: (https://evocortex.org/downloads)
 
 ## Linux installation
 ```bash
