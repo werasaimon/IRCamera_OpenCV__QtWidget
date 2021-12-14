@@ -7,6 +7,7 @@ OpenCV and GStremer installed [Install OpenCV | GStremer | : OS-Desktop](https:/
 
 ## Linux installation | IR Imager Direct-SDK |
 #Download the latest version of the libirimager: (https://evocortex.org/downloads)
+## ----------------------------------------------- ##
 
 ## Linux installation
 ```bash
