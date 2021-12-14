@@ -1,7 +1,7 @@
 # IRCamera_OpenCV__QtWidget
 OpenCV IRImager C++
 
-##Linux installation | IR Imager Direct-SDK |
+## Linux installation | IR Imager Direct-SDK |
 
 ```bash
 # clone imath from GitHub
