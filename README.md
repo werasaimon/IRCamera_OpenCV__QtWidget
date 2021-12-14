@@ -2,8 +2,9 @@
 OpenCV IRImager C++
 
 ## How to compile OpenCV with Gstreamer [Ubuntu&Windows] - Desktop version
-OpenCV and GStremer installed [Install OpenCV | GStremer | : OS-Desktop]
-(https://galaktyk.medium.com/how-to-build-opencv-with-gstreamer-b11668fa09c)
+OpenCV and GStremer installed [Install OpenCV | GStremer | : OS-Desktop] (https://galaktyk.medium.com/how-to-build-opencv-with-gstreamer-b11668fa09c)
+
+## Image IRCamera Photo
 ![gjkabc](http://documentation.evocortex.com/libirimager2/html/household.png)
 
 ## Linux installation | IR Imager Direct-SDK |
