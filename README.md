@@ -1,16 +1,6 @@
 # IRCamera_OpenCV__QtWidget
 OpenCV IRImager C++
 
-# Qt5-OpenCV-Raspberry-Pi | Jetson Nano 
-Native build of Qt5 creator on Raspberry Pi 4 or Jetson Nano with OpenCV support
-## A live camera C++ example on a Raspberry Pi 4 / Jetson Nano with Qt5 GUI using OpenCV <br/> 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)<br/><br/>
-see [Qt5-OpenCV](https://qengineering.eu/install-qt5-with-opencv-on-raspberry-pi-4.html) where this example is explored. 
-
-## Install OpenCV Ubuntu 20.04
-[install-OpenCV](https://vitux.com/opencv_ubuntu/)
-
-
 ## How to compile OpenCV with Gstreamer [Ubuntu&Windows] - Desktop version
 OpenCV and GStremer installed [Install OpenCV | GStremer | : OS-Desktop](https://galaktyk.medium.com/how-to-build-opencv-with-gstreamer-b11668fa09c)
 ![gjkabc](http://documentation.evocortex.com/libirimager2/html/household.png)
@@ -44,6 +34,14 @@ $ groups
 $ sudo usermod -a -G video <username>
 ```
 
+# Qt5-OpenCV-Raspberry-Pi | Jetson Nano 
+Native build of Qt5 creator on Raspberry Pi 4 or Jetson Nano with OpenCV support
+## A live camera C++ example on a Raspberry Pi 4 / Jetson Nano with Qt5 GUI using OpenCV <br/> 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)<br/><br/>
+see [Qt5-OpenCV](https://qengineering.eu/install-qt5-with-opencv-on-raspberry-pi-4.html) where this example is explored. 
+
+## Install OpenCV Ubuntu 20.04
+[install-OpenCV](https://vitux.com/opencv_ubuntu/)
 
 ## Interface IR_Camera
 ![gjkabc](https://github.com/werasaimon/IRCamera_OpenCV__QtWidget/blob/main/image/thermal_img.png)
