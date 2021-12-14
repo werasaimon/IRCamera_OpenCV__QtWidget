@@ -3,6 +3,14 @@ OpenCV IRImager C++
 
 ## Linux installation | IR Imager Direct-SDK |
 
+## Basic installation
+
+```bash
+# cmake
+# freeglut3-dev (only if the user wants to compile the OpenGL example)
+$ sudo apt-get install cmake freeglut3-dev libusb-1.0-0-dev
+```
+
 ```bash
 # The nodrop option can be passed at system startup by creating the following file:
 $ sudo bash -c 'echo "options uvcvideo nodrop=1" > /etc/modprobe.d/uvcvideo.conf'
