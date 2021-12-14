@@ -2,14 +2,12 @@
 OpenCV IRImager C++
 
 ```bash
-```bash
 # clone imath from GitHub
 $ sudo bash -c 'echo "options uvcvideo nodrop=1" > /etc/modprobe.d/uvcvideo.conf'
 $ sudo rmmod uvcvideo; sudo modprobe uvcvideo nodrop=1
 $ sudo bash -c 'echo -n 1 > /sys/module/uvcvideo/parameters/nodrop'
 $ groups
 $ sudo usermod -a -G video <username>
-```
 ```
 
 
