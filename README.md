@@ -1,5 +1,6 @@
 
-# ![gjkabc](https://leotronics.eu/templates/rt_horizon/custom/images/leotronics/logo-leotronics-black-10.jpg) LEOTRONICS https://leotronics.eu/en/ 
+# LEOTRONICS https://leotronics.eu/en/ 
+![gjkabc](https://leotronics.eu/templates/rt_horizon/custom/images/leotronics/logo-leotronics-black-10.jpg) 
 
 # OpenCV IRImager C++ | IR Imager Direct-SDK | QT
 ### Linux installation | IR Imager Direct-SDK |
