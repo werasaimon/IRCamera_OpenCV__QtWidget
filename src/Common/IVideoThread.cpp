@@ -233,6 +233,8 @@ QImage IVideoThread::cvMatToQImage( const cv::Mat &inMat , bool isText , QString
                       static_cast<int>(inMat.step),
                       QImage::Format_RGB888 );
 
+       // image = image.mirrored(true,false);
+
         if( isText )
         {
             QPainter painter(&image);
@@ -245,6 +247,7 @@ QImage IVideoThread::cvMatToQImage( const cv::Mat &inMat , bool isText , QString
             painter.setPen(QPen(Qt::green));
             painter.setFont(*FontText);
             painter.drawText(20,40,_str);
+
 
             delete FontText;
 

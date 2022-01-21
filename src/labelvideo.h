@@ -3,7 +3,7 @@
 
 #include <QLabel>
 #include <QObject>
-
+#include "fullwindow.h"
 
 class IVideoThread;
 class LabelVideo : public QLabel
@@ -12,11 +12,19 @@ class LabelVideo : public QLabel
 public:
     LabelVideo(QWidget *parent = nullptr);
 
+    //void mouseDoubleClickEvent( QMouseEvent * event );
+
     void setOpenCV_videoCapture(IVideoThread *newOpenCV_videoCapture);
+
+    int IndexCamera() const;
+    void setIndexCamera(int newIndexCamera);
+
 
 private:
 
+    int m_IndexCamera;
     IVideoThread *mOpenCV_videoCapture;
+    FullWindow *m_FullWindow;
 };
 
 #endif // LABELVIDEO_H

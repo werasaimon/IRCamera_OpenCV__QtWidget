@@ -43,6 +43,7 @@ SOURCES += \
     Common/IVideoThread.cpp \
     Common/blockreader.cpp \
     Common/blockwriter.cpp \
+    fullwindow.cpp \
     labelvideo.cpp \
     main.cpp \
     mainwindow.cpp
@@ -52,10 +53,12 @@ HEADERS += \
     Common/blockreader.h \
     Common/blockwriter.h \
     Common/scommand.hpp \
+    fullwindow.h \
     labelvideo.h \
     mainwindow.h
 
 FORMS += \
+    fullwindow.ui \
     mainwindow.ui
 
 # Default rules for deployment.
