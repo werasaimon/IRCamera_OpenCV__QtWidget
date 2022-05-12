@@ -40,6 +40,9 @@ $ groups
 
 # Add the current user to this group, if video is not listed there:
 $ sudo usermod -a -G video <username>
+
+#Do the basic installation as follows:
+#Download the latest version of the libirimager: DOWNLOAD LINK
 ```
 
 ## Basic Settin IRImageDirect
