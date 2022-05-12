@@ -42,7 +42,7 @@ $ groups
 $ sudo usermod -a -G video <username>
 
 #Do the basic installation as follows:
-#Download the latest version of the libirimager: DOWNLOAD LINK
+#Download the latest version of the libirimager: DOWNLOAD LINK : https://evocortex.org/downloads/
 ```
 
 ## Basic Settin IRImageDirect
