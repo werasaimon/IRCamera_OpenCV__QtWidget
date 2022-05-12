@@ -12,17 +12,6 @@ http://documentation.evocortex.com/libirimager2/html/Installation.html
 
 #Download the latest version of the libirimager: (https://evocortex.org/downloads)
 
-## Image IRCamera Photo
-![gjkabc](http://documentation.evocortex.com/libirimager2/html/household.png)
-
-
-## Linux installation
-```bash
-# cmake
-# freeglut3-dev (only if the user wants to compile the OpenGL example)
-$ sudo apt-get install cmake freeglut3-dev libusb-1.0-0-dev
-```
-
 ## Basic installation
 ```bash
 # The nodrop option can be passed at system startup by creating the following file:
@@ -43,6 +32,8 @@ $ sudo usermod -a -G video <username>
 
 #Do the basic installation as follows:
 #Download the latest version of the libirimager: DOWNLOAD LINK : (https://evocortex.org/downloads)
+
+sudo dpkg -i -<VERSION>-<ARCH>.deb
 ```
 
 ## Basic Settin IRImageDirect
@@ -53,6 +44,17 @@ $ sudo ir_download_calibration
 #If you like to specify a user-defined directory for the calibration files, append the following option:
 $ ir_download_calibration -t /tmp
 ```
+
+## Linux installation
+```bash
+# cmake
+# freeglut3-dev (only if the user wants to compile the OpenGL example)
+$ sudo apt-get install cmake freeglut3-dev libusb-1.0-0-dev
+```
+
+## Image IRCamera Photo
+![gjkabc](http://documentation.evocortex.com/libirimager2/html/household.png)
+
 
 # Qt5-OpenCV-Raspberry-Pi | Jetson Nano 
 Native build of Qt5 creator on Raspberry Pi 4 or Jetson Nano with OpenCV support
