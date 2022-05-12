@@ -5,10 +5,12 @@
 
 # OpenCV IRImager C++ | IR Imager Direct-SDK | QT
 ### Linux installation | IR Imager Direct-SDK |
-#Download the latest version of the libirimager: (https://evocortex.org/downloads)
+
 
 Instrction insalation libirimager | Linux / Windows |
 http://documentation.evocortex.com/libirimager2/html/Installation.html
+
+#Download the latest version of the libirimager: (https://evocortex.org/downloads)
 
 ## Image IRCamera Photo
 ![gjkabc](http://documentation.evocortex.com/libirimager2/html/household.png)
