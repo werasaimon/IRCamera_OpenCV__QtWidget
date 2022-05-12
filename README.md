@@ -42,6 +42,15 @@ $ groups
 $ sudo usermod -a -G video <username>
 ```
 
+## Basic Settin IRImageDirect
+```bash
+$ sudo ir_download_calibration
+
+#Everything is installed to /usr/share/libirimager/cali.
+#If you like to specify a user-defined directory for the calibration files, append the following option:
+$ ir_download_calibration -t /tmp
+```
+
 # Qt5-OpenCV-Raspberry-Pi | Jetson Nano 
 Native build of Qt5 creator on Raspberry Pi 4 or Jetson Nano with OpenCV support
 ## A live camera C++ example on a Raspberry Pi 4 / Jetson Nano with Qt5 GUI using OpenCV <br/> 
