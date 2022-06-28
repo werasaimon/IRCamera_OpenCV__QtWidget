@@ -50,3 +50,23 @@ void LabelVideo::setIndexCamera(int newIndexCamera)
 {
     m_IndexCamera = newIndexCamera;
 }
+
+void LabelVideo::mousePressEvent(QMouseEvent *e)
+{
+    mMouseCoords.setX(e->pos().x());
+    mMouseCoords.setY(e->pos().y());
+}
+
+void LabelVideo::mouseReleaseEvent(QMouseEvent *e)
+{
+    mMouseCoords.setX(e->pos().x());
+    mMouseCoords.setY(e->pos().y());
+}
+
+void LabelVideo::mouseMoveEvent(QMouseEvent *e)
+{
+    mMouseCoords.setX(e->pos().x());
+    mMouseCoords.setY(e->pos().y());
+
+   //qDebug() << e->pos().x() << "  " << e->pos().y();
+}

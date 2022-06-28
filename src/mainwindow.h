@@ -41,7 +41,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    LabelVideo mLabelVideo;
+    LabelVideo *mLabelVideo;
     IVideoThread *mOpenCV_videoCapture;
 
     /* Да сам объект QTimer */

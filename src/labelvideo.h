@@ -3,6 +3,7 @@
 
 #include <QLabel>
 #include <QObject>
+#include <QVector2D>
 #include "fullwindow.h"
 
 class IVideoThread;
@@ -20,11 +21,18 @@ public:
     void setIndexCamera(int newIndexCamera);
 
 
+    void mousePressEvent(QMouseEvent *e) Q_DECL_OVERRIDE;
+    void mouseReleaseEvent(QMouseEvent *e) Q_DECL_OVERRIDE;
+    void mouseMoveEvent(QMouseEvent *e) Q_DECL_OVERRIDE;
+
+    QVector2D mMouseCoords;
+
 private:
 
     int m_IndexCamera;
     IVideoThread *mOpenCV_videoCapture;
     FullWindow *m_FullWindow;
+
 };
 
 #endif // LABELVIDEO_H
