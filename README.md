@@ -64,6 +64,8 @@ see [Qt5-OpenCV](https://qengineering.eu/install-qt5-with-opencv-on-raspberry-pi
 
 ## Install OpenCV Ubuntu 20.04
 [install-OpenCV](https://vitux.com/opencv_ubuntu/)
+[install-OpenCV Gstremer](https://galaktyk.medium.com/how-to-build-opencv-with-gstreamer-b11668fa09c)
+
 
 ## Qt-Interface IR_Camera
 ![gjkabc](https://github.com/werasaimon/IRCamera_OpenCV__QtWidget/blob/main/image/thermal_img.png)
